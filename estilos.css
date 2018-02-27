@@ -4,18 +4,45 @@
 /*cabecera*/
 .cabecera{width: 100%; height: 115px; border-bottom: solid 5px #ff99ff;}
 .contenidocabecera{width: 1024px; height: 115px; float: left; position: relative; left: 50%; margin-left: -512px;}
-.logo{float: left; position: relative; left: 50%; width: 727px; height: 115px; background-image: url(fotos/logoempresa.jpg); background-size: contain; background-repeat: no-repeat; margin-left:-429px;}
-h1{float: left; position: relative;font-family: 'Kalam', cursive; color:#ff99ff; font-size: 3rem; font-weight: 400; margin-top: 17px;}
+.logo{float: left; position: relative; left: 50%; width: 727px; height: 115px;background-image: url(fotos/logoempresa.jpg);
+background-size: contain; background-repeat: no-repeat; margin-left:-429px;}
+h1{float: left; position: relative;font-family: 'Kalam', cursive; color:#ff99ff; font-size: 3rem;
+font-weight: 400; margin-top: 17px;}
 
 /*fondo*/
 
-.fondo{width: 100%; float: left; position: relative; background-image: url(fotos/fondo.jpg); background-repeat: repeat; background-position: center; background-size: contain;}
-.contenido{width: 1024px; height: auto; float: left; position: relative; left: 50%; margin-left: -512px; padding-top: 30px; padding-bottom: 30px;}
+.fondo{width: 100%; float: left; position: relative; background-image: url(fotos/fondo.jpg);
+background-repeat: repeat; background-position: center; background-size: contain;}
+.contenido{width: 1024px; height: auto; float: left; position: relative; left: 50%; margin-left: -512px;
+padding-top: 30px; padding-bottom: 30px;}
+
+
+/*cuerpo*/
+.entrada{float: left; position: relative; background-color:#fff; width: 800px; height: 300px; margin-left: 111px;
+margin-bottom: 50px; margin-top: 50px;-webkit-box-shadow: 1px 1px 10px 8px #24FF24; box-shadow: 1px 1px 10px 8px #24FF24;}/*margin:50px 0px 50px 112px;*/
+.contenedorimagen {float: left; position: relative; border-right: solid 2px #FF1CD9; width: 280px; height: 300px;}
+.imagen {position: absolute; width: 100%; height: 100%; object-fit:contain; overflow: hidden; margin: 0px;}
+.informacion{ float: left; position: relative; width: 469px; height: 300px; padding-left: 22px; padding-right: 20px;}
+.titulo{float: left; position: relative; width: 468px; height: 52px; overflow: hidden;font-family: 'Kalam', cursive;
+font-size: 1.5em; font-weight: 700; text-transform: uppercase; text-align: left; color:#ee5b1e;
+line-height: 1.8rem; margin-bottom: 0px; margin-top: 5px; }
+.fecha{float: left; position: relative; font-family: 'Kalam', cursive; font-size: 1.1rem; font-weight: 400;
+color:#b2b52b; margin-top: 7px; margin-bottom: 0px;}
+.texto{float: left; position: relative; width: 474px; height: 172px; font-family: 'Kalam', cursive;
+font-size: 1.1rem; font-weight: 300; text-align: justify; overflow: hidden;margin-top: 8px;}
+.boton{float: right; position: relative; width: 101px; height: 97px;
+background-color:#ed5d1b; font-family: 'Kalam',cursive; font-size: 1.1rem; color:#fff; -webkit-box-shadow: 1px 1px 10px 8px #19FF40;
+box-shadow: 1px 1px 10px 8px #19FF40; border:none; border-radius: 50% 50% 0% 50%;
+margin-right: -49px; text-shadow: 3px 3px 5px #351FFF;padding-top: 8px; cursor: pointer; }
+.boton:hover{background-color:#2B32FF; text-shadow: 3px 3px 5px #E1FF21;-webkit-box-shadow: 1px 1px 10px 8px #FF24D3;
+box-shadow: 1px 1px 10px 8px #FF24D3;}
+.leer{margin-top: -68px;}
+
 
 /*pie*/
-.pie { width: 100%; height: 115px; border-top: solid 15px #162975;}
+.pie { width: 100%; height: 115px; border-top: solid 15px #162975; float: left; position: relative;background-color:#fff;}
 .contenidopie{width: 1024px; height: 105px; float: left; position: relative; left: 50%; margin-left: -512px;}
-.junta{}
-.programatic{}
-.aje{}
-.europeo{}
+.junta{float: left; position: relative; width: 166px; margin-left: 140px; margin-top: 4px;}
+.programatic{float: left; position: relative; width: 239px; margin-left: 117px; margin-top: 0px;}
+.aje{ float: left; position: relative; width: 121px; margin-left: 28px; margin-top: 0px;}
+.europeo{float: left; position: relative; width: 149px; margin-left: 36px; margin-top: 7px;}

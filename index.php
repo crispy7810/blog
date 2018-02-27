@@ -15,6 +15,26 @@
 </div>
 <div class="fondo">
     <div class="contenido">
+        <div class= "entrada">
+            <div class="contenedorimagen">
+                <img class="imagen" src="fotos/colauno.jpg"
+                     alt="junta" title=="junta"/>
+            </div>
+            <div class="informacion">
+                <p class="fecha"> 27 de Febrero de 2018</p>
+                <h2 class="titulo"> EJEMPLO DE TITULO DE ENTRADA</h2>
+                <p class="texto"> Torem Ipsum es simplemente el texto de relleno de las imprentas
+                y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las
+                industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica
+                a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que
+                logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien
+                ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual
+                al original. </p>
+                <form action="entrada.php" method="post" enctype="multipart/form-data">
+                    <input type="submit" class="boton leer" value="LEER MAS"/>
+                </form>
+            </div>
+        </div>
         
     </div>
     
