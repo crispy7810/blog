@@ -46,3 +46,17 @@ box-shadow: 1px 1px 10px 8px #FF24D3;}
 .programatic{float: left; position: relative; width: 239px; margin-left: 117px; margin-top: 0px;}
 .aje{ float: left; position: relative; width: 121px; margin-left: 28px; margin-top: 0px;}
 .europeo{float: left; position: relative; width: 149px; margin-left: 36px; margin-top: 7px;}
+
+
+
+/*cuerpoentrada*/
+.fondoentrada{width: 100%; float: left; position: relative; background-image: url(fotos/fondogolo.jpg);
+background-repeat: repeat;}
+.contenidoentrada{width: 1024px; height: auto; float: left; position: relative; left: 50%; margin-left: -512px;
+padding: 30px; background-color: #fff; margin-bottom: 65px; margin-top: 65px;}
+.volver{float: left; position: relative; width: 99px;background-color:#ed5d1b; font-family: 'Kalam',cursive;
+font-size: 1.6rem; color:#fff; -webkit-box-shadow: 1px 1px 10px 8px #19FF40; box-shadow: 1px 1px 10px 8px #19FF40;
+border:none; border-radius: 0% 50% 50% 50%;margin-left: -55px; margin-top: -44px; text-shadow: 3px 3px 5px #351FFF;
+padding-top: 8px; cursor: pointer; padding-left: 18px;text-decoration: none;}
+.volver:hover{background-color:#2B32FF; text-shadow: 3px 3px 5px #E1FF21;-webkit-box-shadow: 1px 1px 10px 8px #FF24D3;
+box-shadow: 1px 1px 10px 8px #FF24D3;}
