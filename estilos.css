@@ -60,3 +60,12 @@ border:none; border-radius: 0% 50% 50% 50%;margin-left: -55px; margin-top: -44px
 padding-top: 8px; cursor: pointer; padding-left: 18px;text-decoration: none;}
 .volver:hover{background-color:#2B32FF; text-shadow: 3px 3px 5px #E1FF21;-webkit-box-shadow: 1px 1px 10px 8px #FF24D3;
 box-shadow: 1px 1px 10px 8px #FF24D3;}
+.tituloentrada{float: left; position: relative; width: 892px; font-family: 'Karma', serif; font-size: 3.5rem;
+font-weight: 700; text-align: center; color: #FF61EF; line-height: 4rem; margin-left: 50px;}
+.imagenentrada{float: left; position: relative; width: 485px; height: 519px; border: solid 5px #2E2EFF;
+margin-top: 5px;}
+.fechaentrada{float: left; position: relative; width: 505px; font-family: 'Kalam', cursive; font-size: 1.7rem;
+font-weight: 400;color:#2E2EFF; margin-top: -44px; margin-left: 650px; text-align: left;}
+.textoentrada{ float: left; position: relative; width: 1024px; font-family: 'Roboto Mono', monospace; font-size: 1.1rem;
+font-weight:200; text-align: justify; line-height: 2.33rem; margin-top: -473px;}
+.huecoimagen{float: left; position: relative; width: 515px; height: 550px; margin-top: -48px;}
