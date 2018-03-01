@@ -13,7 +13,7 @@ include_once('funciones.php');
 <body>
 <div class="cabecera">
     <div class="contenidocabecera">
-        <a href="http://www.ajeclm.com/" target="blnak" class="logo"></a>
+        <a href="http://www.ajeclm.com/" target="blank" class="logo"></a>
         <a href="index.php"><h1> SWEET Blog del Programa TIC  </h1></a>
     </div>
     

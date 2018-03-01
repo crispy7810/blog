@@ -9,9 +9,8 @@
 .logo{float: left; position: relative; left: 50%; width: 727px; height: 115px;background-image: url(fotos/logoempresa.jpg);
 background-size: contain; background-repeat: no-repeat; margin-left:-429px;}
 
-h1{float: left; position: relative;font-family: 'Kalam', cursive; color:#ff99ff; font-size: 3rem;
-font-weight: 400; margin-top: 17px;}
-
+h1{float: left; position: relative;font-family: 'Kalam', cursive; color:#701861;
+font-size: 3rem; font-weight: 400; margin-top: -110px; margin-left: 227px;}
 /*fondo*/
 
 .fondo{width: 100%; float: left; position: relative; background-image: url(fotos/fondo.jpg);
@@ -20,15 +19,27 @@ background-repeat: repeat; background-position: center; background-size: contain
 .contenido{width: 1024px; height: auto; float: left; position: relative; left: 50%; margin-left: -512px;
 padding-top: 30px; padding-bottom: 30px;}
 
-
 /*cuerpo*/
+
+.titular{float: left; position: relative; width: 110%; height: 77px;font-family: 'Roboto Mono', monospace; font-size: 3.5rem;
+font-weight: 700; text-transform: uppercase; text-align: center; color:#fff; margin: 0px;background-color:#14FFEF;
+-webkit-box-shadow: 1px 1px 10px 8px #24FF24; box-shadow: 1px 1px 10px 8px; margin-bottom: -9px;}
+
+
 .entrada{float: left; position: relative; background-color:#fff; width: 800px; height: 300px; margin-left: 111px;
 margin-bottom: 50px; margin-top: 50px;-webkit-box-shadow: 1px 1px 10px 8px #24FF24; box-shadow: 1px 1px 10px 8px #24FF24;}
 /*margin:50px 0px 50px 112px;*/
 
 .contenedorimagen {float: left; position: relative; border-right: solid 2px #FF1CD9; width: 280px; height: 300px;}
 
-.imagen {position: absolute; width: 100%; height: 100%; object-fit:contain; overflow: hidden; margin: 0px;}
+.imagen {position:relative; width: 100%; height: 100%; object-fit:contain; float: left; overflow: hidden;
+margin-left: -3px; margin-top: 6px;}
+
+.descripcion{float: left; position: relative; width: 92%; height: 28px; font-family: 'Kalam', cursive;
+font-size: 1.1rem; font-weight:300; margin-top:-300px; margin-left: 8px;}
+
+.examinar{float: left; position: relative; width: 96%; height: 37px; margin-left: 7px; margin-top: -45px;
+font-family: 'Kalam', cursive; font-size: 0.72rem; font-weight:300;}
 
 .informacion{ float: left; position: relative; width: 469px; height: 300px; padding-left: 22px; padding-right: 20px;}
 
@@ -39,18 +50,18 @@ line-height: 1.8rem; margin-bottom: 0px; margin-top: 5px; }
 .fecha{float: left; position: relative; font-family: 'Kalam', cursive; font-size: 1.1rem; font-weight: 400;
 color:#b2b52b; margin-top: 7px; margin-bottom: 0px;}
 
-.texto{float: left; position: relative; width: 474px; height: 172px; font-family: 'Kalam', cursive;
+.texto{float: left; position: relative; width: 474px; height: 128px; font-family: 'Kalam', cursive;
 font-size: 1.1rem; font-weight: 300; text-align: justify; overflow: hidden;margin-top: 8px;}
 
 .boton{float: right; position: relative; width: 101px; height: 97px;
 background-color:#ed5d1b; font-family: 'Kalam',cursive; font-size: 1.1rem; color:#fff; -webkit-box-shadow: 1px 1px 10px 8px #19FF40;
 box-shadow: 1px 1px 10px 8px #19FF40; border:none; border-radius: 50% 50% 0% 50%;
-margin-right: -49px; text-shadow: 3px 3px 5px #351FFF;padding-top: 8px; cursor: pointer; }
+margin-right: -49px; text-shadow: 3px 3px 5px #351FFF;margin-top: -33px; cursor: pointer;}
 
 .boton:hover{background-color:#2B32FF; text-shadow: 3px 3px 5px #E1FF21;-webkit-box-shadow: 1px 1px 10px 8px #FF24D3;
 box-shadow: 1px 1px 10px 8px #FF24D3;}
 
-.leer{margin-top: -68px;}
+.publ{padding-top: 8px}
 
 
 /*pie*/
@@ -98,33 +109,5 @@ font-weight:200; text-align: justify; line-height: 2.33rem; margin-top: -473px;}
 
 
 
-
-
 /*para movil*/
 @media{max-width:360px}{
-
-.contenidoentrada{width: 96px; height: auto; float: left; position: relative; left: 0%; margin-left: 2%;
-padding: 0px; background-color: #fff; margin-bottom:5px; margin-top: 5px;}
-
-.volver{ width: 99px;background-color:#ed5d1b; font-family: 'Kalam',cursive;
-font-size: 1.6rem; color:#fff; -webkit-box-shadow: 1px 1px 10px 8px #19FF40; box-shadow: 1px 1px 10px 8px #19FF40;
-border:none; border-radius: 0% 50% 50% 50%;margin-left: -55px; margin-top: -44px; text-shadow: 3px 3px 5px #351FFF;
-padding-top: 8px; cursor: pointer; padding-left: 18px;text-decoration: none;}
-
-.volver:hover{background-color:#2B32FF; text-shadow: 3px 3px 5px #E1FF21;-webkit-box-shadow: 1px 1px 10px 8px #FF24D3;
-box-shadow: 1px 1px 10px 8px #FF24D3;}
-
-.tituloentrada{float: left; position: relative; width: 892px; font-family: 'Karma', serif; font-size: 3.5rem;
-font-weight: 700; text-align: center; color: #FF61EF; line-height: 4rem; margin-left: 50px;
-text-transform: uppercase;}
-
-.imagenentrada{float: left; position: relative; width: 485px; height: 519px; border: solid 5px #2E2EFF;
-margin-top: 5px;}
-
-.fechaentrada{float: left; position: relative; width: 505px; font-family: 'Kalam', cursive; font-size: 1.7rem;
-font-weight: 400;color:#2E2EFF; margin-top: -44px; margin-left: 650px; text-align: left;}
-
-.textoentrada{ float: left; position: relative; width: 1024px; font-family: 'Roboto Mono', monospace; font-size: 1.1rem;
-font-weight:200; text-align: justify; line-height: 2.33rem; margin-top: -473px;}
-
-.huecoimagen{float: left; position: relative; width: 515px; height: 550px; margin-top: -48px;}}
