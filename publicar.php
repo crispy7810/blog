@@ -17,4 +17,5 @@ $dir_subida='imagenes/';
 $fichero_subido=$dir_subida.basename($_FILES['imagen']['name']);
 $creacion=move_uploaded_file($_FILES['imagenes']['tmp_name'], $fichero_subido);
 }
+else( )
 ?>
